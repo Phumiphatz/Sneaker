@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/startapp">
+
+    <fragment
+        android:id="@+id/typeChoose"
+        android:name="com.example.sneaky.TypeChoose"
+        android:label="TypeChoose">
+        <action
+            android:id="@+id/action_typeChoose_to_brandSelected"
+            app:destination="@id/brandSelected" />
+    </fragment>
+    <fragment
+        android:id="@+id/modelChoose"
+        android:name="com.example.sneaky.ModelChoose"
+        android:label="ModelChoose" >
+        <argument
+            android:name="modelChoose"
+            app:argType="string"/>
+    </fragment>
+    <fragment
+        android:id="@+id/startapp"
+        android:name="com.example.sneaky.Startapp"
+        android:label="Startapp">
+        <action
+            android:id="@+id/action_startapp_to_typeChoose"
+            app:destination="@id/typeChoose" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutme"
+        android:name="com.example.sneaky.Aboutme"
+        android:label="Aboutme" />
+    <fragment
+        android:id="@+id/brandSelected"
+        android:name="com.example.sneaky.BrandSelected"
+        android:label="fragment_brand_selected"
+        tools:layout="@layout/fragment_brand_selected" >
+        <argument
+            android:name="brand"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_brandSelected_to_modelChoose"
+            app:destination="@id/modelChoose" />
+    </fragment>
+    <fragment
+        android:id="@+id/insert"
+        android:name="com.example.sneaky.insert"
+        android:label="insert" >
+        <action
+            android:id="@+id/action_insert_to_typeChoose"
+            app:destination="@id/typeChoose" />
+    </fragment>
+</navigation>

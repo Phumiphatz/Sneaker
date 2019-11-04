@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Sneaky</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="about">About</string>
+    <string name="insert">เพิ่มรองเท้า</string>
+    <string name="ok">เพิ่ม</string>
+    <string name="model">รุ่น</string>
+    <string name="detail">บทความ</string>
+    <string name="text_spinner">ยี่ห้อ</string>
+    <string name="air_max">พบกับรองเท้าวิ่งระดับตำนาน Nike Air Max 98 ในโทนสี 2 สไตล์ ที่จะทำให้สนุกทุกกับการแต่งตัวในทุกๆวัน
+
+• Nike Air Max 98
+
+Nike Air Max 98 คือโมเดลรองเท้าวิ่งที่พัฒนาต่อจากโมเดล Air Max 97 โดยมาพร้อมกับ Upper วัสดุหนัง (Leather) และผ้า Mesh สุดทนทาน เพิ่มความพิเศษด้วย พื้น Air Sole Unit แบบเต็มผืนความยาวของรองเท้า ที่ช่วยรองรับแรงกระแทกให้ความนุ่มสบายทุกย่างก้าว มาใน 2 โทนสี 2 สไตล์ทั้งแบบ ขาวเรียบง่าย กับแบบสีซ่อนสนุกสไตล์พรีเมียม
+
+Nike Air Max 98 Shoe brings back retro Air Max style with modern comfort innovations. Its leather and mesh upper provides durable breathability while a full-length, visible Max Air unit offers responsive cushioning.
+
+------------------------------------------------------------------------------------
+• Air Max 98 – WHITE/PURE PLATINUM-BLACK-REFLECT SILVER (640744-106)
+SIZE (US): 8 / 8.5 / 9 / 9.5 / 10 / 10.5
+PRICE (ราคา): 5,800 บาท
+MEMBER: รับส่วนลด 10%
+
+• Air Max 98 Premium – WHITE/TEAL NEBULA-UNIVERSITY GOLD-BLACK (BV0989-102)
+SIZE (US): 8 / 8.5 / 9 / 9.5 / 10 / 10.5
+PRICE (ราคา): 6,400 บาท
+MEMBER: รับส่วนลด 10%
+------------------------------------------------------------------------------------</string>
+    <string name="original">
+
+70S RUNNING STYLE INSPIRES THESE THROWBACK SHOES. A MESH AND VELVET UPPER CREATES A LUXE FEEL AND TEXTURED LOOK. ENERGY-RETURNING BOOST CUSHIONING ADDS A RESPONSIVE RIDE FOR ALL-DAY COMFORT. THEY COME IN FRESH, SEASONAL COLOURS.
+Lace closure
+Stretchy mesh and velvet upper
+Textile lining; Rubber outsole
+Responsive Boost midsole
+Product color: Tech Mineral / Cloud White / Core Black
+    </string>
+    <string name="profile">PHUMIPHAT WONGCHUEA</string>
+
+</resources>

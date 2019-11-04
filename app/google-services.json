@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "302448116895",
+    "firebase_url": "https://sneaky-79b20.firebaseio.com",
+    "project_id": "sneaky-79b20",
+    "storage_bucket": "sneaky-79b20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302448116895:android:17b573af1a913be43b8eaa",
+        "android_client_info": {
+          "package_name": "com.example.sneaky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302448116895-4t67a4h6i04c4s8b8l5ol31q5gh76mma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sneaky",
+            "certificate_hash": "284434b95b25cecce268e4a192878018907d55af"
+          }
+        },
+        {
+          "client_id": "302448116895-saas4gf9f52oj580sj9khrmdceccqbot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb_YYiZdolrAAYbV1lHIGxDZPYJ4mAJ5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302448116895-saas4gf9f52oj580sj9khrmdceccqbot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
