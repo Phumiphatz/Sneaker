@@ -26,9 +26,9 @@ class listSneakers (var context: Context?, var type: ArrayList<Sneakers>): BaseA
         var viewHolder: ViewHolder
         if(convertView == null){
             var layout = LayoutInflater.from(context)
-            view = layout.inflate(R.layout.fragment_list_sneakers,parent,false)
+            view = layout.inflate(R.layout.fragment_list_brand,parent,false)
             viewHolder = ViewHolder(view)
-            view.tag = viewHolder
+            view?.tag = viewHolder
         } else {
             view = convertView
             viewHolder = view.tag as ViewHolder

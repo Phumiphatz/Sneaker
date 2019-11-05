@@ -27,10 +27,10 @@ class listSneakersBand(var context: Context?, var sneakersBand: ArrayList<Sneake
         var viewHolder: ViewHolder
         if (convertView == null) {
             var layout = LayoutInflater.from(context)
-            view = layout.inflate(R.layout.list_band, parent, false)
+            view = layout.inflate(R.layout.list_model, parent, false)
 
             viewHolder = ViewHolder(view)
-            view.tag = viewHolder
+            view?.tag = viewHolder
         } else {
             view = convertView
             viewHolder = view.tag as ViewHolder
