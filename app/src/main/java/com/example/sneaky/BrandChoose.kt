@@ -28,33 +28,22 @@ class TypeChoose : Fragment() {
             inflater,
             R.layout.fragment_type_choose, container, false
         )
-       // checkPage()
+
         var array: ArrayList<Sneakers> = set()
         binding.listViewData.adapter = listSneakers(getActivity()?.applicationContext, array);
 
         binding.listViewData.setOnItemClickListener { parent, view, position, id ->
-            //var brandSelected = bundleOf("band" to array[position].name)
+
             view.findNavController()
                 .navigate(TypeChooseDirections.actionTypeChooseToBrandSelected(array[position].name))
         }
 
-        //listClick(array)
         (activity as AppCompatActivity).supportActionBar?.title = "รองเท้า"
         setHasOptionsMenu(true)
         return binding.root
     }
 
-//    private fun checkPage() {
-//        Handler().postDelayed({
-//            var pageCheck = arguments?.getString("pageCheck")
-//            Log.i("check", pageCheck.toString())
-//            if (pageCheck.isNullOrEmpty()) {
-//                Log.i("checkInside", "inside")
-//                view?.findNavController()?.navigate(R.id.action_typeChoose_to_startapp)
-//
-//            }
-//        }, 400)
-//    }
+
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
