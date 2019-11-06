@@ -2,10 +2,8 @@ package com.example.sneaky
 
 
 import android.os.Bundle
-import android.util.Log
 import android.view.*
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
@@ -40,7 +38,7 @@ class modelSelected : Fragment() {
 
         binding.listBand.setOnItemClickListener { parent, view, position, id ->
             view.findNavController()
-                .navigate(modelSelectedDirections.actionBrandSelectedToModelChoose(array[position].name + "+" + array[position].title))
+                .navigate(modelSelectedDirections.actionBrandSelectedToModelChoose(array[position].name + "+" + array[position].model))
         }
 
 
