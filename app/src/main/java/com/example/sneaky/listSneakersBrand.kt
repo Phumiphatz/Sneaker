@@ -11,7 +11,7 @@ import android.widget.ImageView
 import android.widget.TextView
 
 
-class listSneakers (var context: Context?, var type: ArrayList<Sneakers>): BaseAdapter() {
+class listSneakersBrand (var context: Context?, var type: ArrayList<Sneakers>): BaseAdapter() {
     private class ViewHolder(row: View?){
         var txtName: TextView
         var imgLogo: ImageView

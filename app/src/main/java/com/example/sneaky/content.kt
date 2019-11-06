@@ -19,7 +19,7 @@ import com.example.sneaky.databinding.FragmentModelChooseBinding
 /**
  * A simple [Fragment] subclass.
  */
-class ModelChoose : Fragment() {
+class content : Fragment() {
     private lateinit var binding: FragmentModelChooseBinding
     private lateinit var model: dataViewModel
     override fun onCreateView(

@@ -10,7 +10,7 @@ import android.widget.TextView
 import com.example.sneaky.R
 import com.example.sneaky.SneakersBand
 
-class listSneakersBand(var context: Context?, var sneakersBand: ArrayList<SneakersBand>): BaseAdapter() {
+class listSneakersModel(var context: Context?, var sneakersBand: ArrayList<SneakersBand>): BaseAdapter() {
     private class ViewHolder(row: View?) {
         var txtName: TextView
         var imgLogo: ImageView

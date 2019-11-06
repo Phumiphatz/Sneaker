@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/typeChoose"
-        android:name="com.example.sneaky.TypeChoose"
+        android:name="com.example.sneaky.BrandChoose"
         android:label="TypeChoose">
         <action
             android:id="@+id/action_typeChoose_to_brandSelected"
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/modelChoose"
-        android:name="com.example.sneaky.ModelChoose"
+        android:name="com.example.sneaky.content"
         android:label="ModelChoose" >
         <argument
             android:name="modelChoose"
@@ -35,7 +35,7 @@
         android:label="Aboutme" />
     <fragment
         android:id="@+id/brandSelected"
-        android:name="com.example.sneaky.BrandSelected"
+        android:name="com.example.sneaky.modelSelected"
         android:label="fragment_brand_selected"
         tools:layout="@layout/fragment_brand_selected" >
         <argument

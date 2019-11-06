@@ -13,13 +13,13 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.example.sneaky.databinding.FragmentBrandSelectedBinding
-import com.example.waterreview.listSneakersBand
+import com.example.waterreview.listSneakersModel
 import kotlinx.android.synthetic.main.fragment_brand_selected.*
 
 /**
  * A simple [Fragment] subclass.
  */
-class BrandSelected : Fragment() {
+class modelSelected : Fragment() {
     private lateinit var model: dataViewModel
     private lateinit var binding: FragmentBrandSelectedBinding
     override fun onCreateView(
@@ -35,12 +35,12 @@ class BrandSelected : Fragment() {
         var getModel = arguments?.getString("brand")
         var array: ArrayList<SneakersBand> = onModel(getModel)
 
-        binding.listBand.adapter = listSneakersBand(getActivity()?.applicationContext, array);
+        binding.listBand.adapter = listSneakersModel(getActivity()?.applicationContext, array);
         (activity as AppCompatActivity).supportActionBar?.title = getModel
 
         binding.listBand.setOnItemClickListener { parent, view, position, id ->
             view.findNavController()
-                .navigate(BrandSelectedDirections.actionBrandSelectedToModelChoose(array[position].name + "+" + array[position].title))
+                .navigate(modelSelectedDirections.actionBrandSelectedToModelChoose(array[position].name + "+" + array[position].title))
         }
 
 
@@ -101,7 +101,7 @@ class BrandSelected : Fragment() {
             }
             if (count == t.size) {
                 list_band.adapter =
-                    listSneakersBand(getActivity()?.applicationContext, array);
+                    listSneakersModel(getActivity()?.applicationContext, array);
             }
 
         })

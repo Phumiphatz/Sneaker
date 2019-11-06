@@ -16,7 +16,7 @@ import com.example.sneaky.databinding.FragmentTypeChooseBinding
 /**
  * A simple [Fragment] subclass.
  */
-class TypeChoose : Fragment() {
+class BrandChoose : Fragment() {
     private lateinit var binding: FragmentTypeChooseBinding
     private lateinit var sneakers: Sneakers
 
@@ -30,12 +30,12 @@ class TypeChoose : Fragment() {
         )
 
         var array: ArrayList<Sneakers> = set()
-        binding.listViewData.adapter = listSneakers(getActivity()?.applicationContext, array);
+        binding.listViewData.adapter = listSneakersBrand(getActivity()?.applicationContext, array);
 
         binding.listViewData.setOnItemClickListener { parent, view, position, id ->
 
             view.findNavController()
-                .navigate(TypeChooseDirections.actionTypeChooseToBrandSelected(array[position].name))
+                .navigate(BrandChooseDirections.actionTypeChooseToBrandSelected(array[position].name))
         }
 
         (activity as AppCompatActivity).supportActionBar?.title = "รองเท้า"
