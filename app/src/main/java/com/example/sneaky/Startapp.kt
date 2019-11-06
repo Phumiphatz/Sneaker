@@ -26,22 +26,9 @@ class Startapp : Fragment() {
             inflater,
             R.layout.fragment_startapp, container, false
         )
-//        val decorView = activity?.window?.decorView
-//
-//        val uiOptions = (
-//                View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
-//                        or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-//                        or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-//                        or View.SYSTEM_UI_FLAG_FULLSCREEN
-//                )
-//
-//
-//        decorView?.systemUiVisibility = uiOptions
-
         binding.btnStartApp.setOnClickListener {
             view?.findNavController()?.navigate(R.id.action_startapp_to_typeChoose)
         }
-        //setHasOptionsMenu(true)
         return binding.root
     }
 
