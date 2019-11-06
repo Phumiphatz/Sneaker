@@ -70,6 +70,4 @@ class BrandChoose : Fragment() {
         return array
     }
 
-
-
 }

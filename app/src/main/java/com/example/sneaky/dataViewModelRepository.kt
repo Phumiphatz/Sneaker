@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.room.DatabaseView
 
-class dataViewModelFactory(private val Dao: DAOSneaky) {
+class dataViewModelRepository(private val Dao: DAOSneaky) {
 
     val allSneaky: LiveData<List<sneakyDatabaseModels>> = Dao.get()
 
