@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/typeChoose"
         android:name="com.example.sneaky.BrandChoose"
-        android:label="TypeChoose">
+        android:label="Brand">
         <action
             android:id="@+id/action_typeChoose_to_brandSelected"
             app:destination="@id/brandSelected" />
